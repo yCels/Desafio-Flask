@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{%block title%} Contatos {%endblock%}
+{% block content %}
+<body background="./static/imagens/fundo2.png">
+
+   
+    <div>
+        <div class="div_cabeçalho">
+            <img src="./static/imagens/logo.png" alt="logo unes">
+        </div>
+
+        <div class="barra_nav">
+            <span class="botão-home">
+                <a href="/"> Home </a>&nbsp;|
+                <a href="/qmsomos"> Quem somos </a>&nbsp;|
+                <a href="/contatos"> Contatos </a>&nbsp;
+            </span>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <!-- conteudo escrito da pagina -->
+    <div>
+        <h2>Entre em contato</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim delectus aut expedita explicabo
+            nihil.
+
+        </p>
+
+
+    </div>
+    <hr>
+    <!-- Formulário -->
+    <div>
+        <form>
+            <label>Email:</label>
+            <br>
+            <input type="email" required>
+            <br>
+            <label>Assunto:</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label>Descrição:</label>
+            <br>
+            <textarea name="" required></textarea>
+            <br>
+            <input type="submit">
+        </form>
+        <br>
+        <p class="texto_direitos"><b>Todos direitos reservados</b></p>
+    </div>
+
+
+</body>
+{% endblock %}
+
+</html>
